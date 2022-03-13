@@ -1,4 +1,4 @@
-Thanks for downloading this theme!
+References:
 
 Theme Name: NewBiz
 Theme URL: https://bootstrapmade.com/newbiz-bootstrap-business-template/
