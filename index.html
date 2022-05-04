@@ -1,65 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>FAB</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta content="" name="keywords" />
-    <meta content="" name="description" />
 
-    <!-- Favicons -->
-    <link href="images/latestlogo.png" rel="icon" />
-    <link href="img/apple-touch-icon.png" rel="apple-touch-icon" />
+<head>
+  <meta charset="utf-8" />
+  <title>FAB</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta content="" name="keywords" />
+  <meta content="" name="description" />
 
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
-      rel="stylesheet"
-    />
+  <!-- Favicons -->
+  <link href="images/latestlogo.png" rel="icon" />
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-    <!-- Bootstrap CSS File -->
-    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
+    rel="stylesheet" />
 
-    <!-- Libraries CSS Files -->
-    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
-    <link href="lib/animate/animate.min.css" rel="stylesheet" />
-    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet" />
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
 
-    <!-- Main Stylesheet File -->
-    <link href="css/style.css" rel="stylesheet" />
 
-    <!-- =======================================================
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+  <link href="lib/animate/animate.min.css" rel="stylesheet" />
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet" />
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet" />
+
+  <!-- =======================================================
     Theme Name: NewBiz
     Theme URL: https://bootstrapmade.com/newbiz-bootstrap-business-template/
     Author: BootstrapMade.com
     License: https://bootstrapmade.com/license/
   ======================================================= -->
-  </head>
+</head>
 
-  <body>
+<body>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="exampleModalLabel">Deadline: 6th May 2022</h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <a target="blank" href="https://forms.gle/TrLR3AZiw5yKXX3u9"><img src="./images/joboffer.jpeg" height="400px" width="450px" alt="Job Opportunity"></a>
+        </div>
+        <div class="modal-footer">
+          <a target="blank" href="https://forms.gle/TrLR3AZiw5yKXX3u9"> <button type="button" class="btn btn-primary">
+              Apply Now
+            </button></a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
     <!--==========================
   Header
   ============================-->
-    <header id="header" class="fixed-top">
-      <div class="container">
-        <div class="float-left">
-          <!-- Uncomment below if you prefer to use an image logo -->
-          <!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
-          <a href="#intro"
-            ><img src="./images/fabNewlogo.jpg" height="80px" alt=""
-          /></a>
-        </div>
+  <header id="header" class="fixed-top">
+    <div class="container">
+      <div class="float-left">
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
+        <a href="#intro"><img src="./images/fabNewlogo.jpg" height="80px" alt="" /></a>
+      </div>
 
-        <nav class="main-nav float-right d-none d-lg-block mt-3">
-          <ul>
-            <li class="active"><a href="#intro">Home</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#services">Opportunity</a></li>
-            <!-- <li><a href="#portfolio">Portfolio</a></li> -->
-            <li><a href="#team">Team</a></li>
-            <!-- <li class="drop-down"><a href="">Drop Down</a>
+      <nav class="main-nav float-right d-none d-lg-block mt-3">
+        <ul>
+          <li class="active"><a href="#intro">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Opportunity</a></li>
+          <!-- <li><a href="#portfolio">Portfolio</a></li> -->
+          <li><a href="#team">Team</a></li>
+          <!-- <li class="drop-down"><a href="">Drop Down</a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
               <li class="drop-down"><a href="#">Drop Down 2</a>
@@ -76,365 +100,321 @@
               <li><a href="#">Drop Down 5</a></li>
             </ul>
           </li> -->
-            <li><a href="#contact">Contact Us</a></li>
-          </ul>
-        </nav>
-        <!-- .main-nav -->
-      </div>
-    </header>
-    <!-- #header -->
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+      <!-- .main-nav -->
+    </div>
+  </header>
+  <!-- #header -->
 
-    <!--==========================
+  <!--==========================
     Intro Section
   ============================-->
-    <section id="intro" class="clearfix">
+  <section id="intro" class="clearfix">
+    <div class="container">
+      <div class="intro-img">
+        <img src="./images/aboutus.jpg" alt="" class="img-fluid" />
+      </div>
+
+      <div class="intro-info">
+        <h2>
+          Lets Evolve together in the<br /><span>World </span><br />of
+          Technology!
+        </h2>
+        <div>
+          <a href="#about" class="btn-get-started scrollto">Get Started</a>
+          <a href="#services" class="btn-services scrollto">Opportunities</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- #intro -->
+
+  <main id="main">
+    <!--==========================
+      About Us Section
+    ============================-->
+    <section id="about">
       <div class="container">
-        <div class="intro-img">
-          <img src="./images/aboutus.jpg" alt="" class="img-fluid" />
+        <header class="section-header align-content-md-center">
+          <h3>About Us</h3>
+          <p>
+            <strong>A Global Enterprise of EST Global Inc.</strong><br />
+            FAB Association is an organization that was established to bring
+            together Financial and Corporate leaders, along with Blockchain
+            experts from across the globe. Endorsed by EST Global Inc, the
+            Association is a decentralized Platform for Digital Knowledge &
+            Intelligence Proliferation among the Youth. It promotes financial
+            and technological education worldwide to improve and enrich
+            business compliance and relationships as one integrated tech
+            world.
+          </p>
+        </header>
+
+        <div class="row about-extra">
+          <div class="col-lg-6 wow fadeInUp order-1 order-lg-2">
+            <img src="./images/studentCouncil.jpeg" class="img-fluid" alt="" />
+          </div>
+          <div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
+            <div class="card-body mt-xl-5">
+              <h4>Global Business Council Board</h4>
+              <p>
+                Global Business Council Board (GBCB) is the highest resource
+                board of FAB. It consists of all the personalities from
+                different parts of the globe who are determined to carry on
+                the efforts of FAB – Decentralized Platform for Digital
+                Knowledge & Intelligence Proliferation among the Youth.
+              </p>
+              <p>
+                Members of GBCB teach and train, guide and supervise the
+                students to further the ambitious technical agenda of FAB.
+              </p>
+            </div>
+          </div>
         </div>
 
-        <div class="intro-info">
-          <h2>
-            Lets Evolve together in the<br /><span>World </span><br />of
-            Technology!
-          </h2>
-          <div>
-            <a href="#about" class="btn-get-started scrollto">Get Started</a>
-            <a href="#services" class="btn-services scrollto">Opportunities</a>
+        <div class="row about-extra">
+          <div class="col-lg-6 wow fadeInUp">
+            <img src="./images/academic-council.jpg" class="img-fluid" alt="" />
+          </div>
+          <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
+            <div class="card-body mt-xl-5">
+              <h4>Global Academic Council Board</h4>
+              <p>
+                Knowledge base or the Academics is the fulcrum for any
+                organization. The purpose of FAB (Fintech & Blockchain
+                Association) is to be the Decentralized Platform for Digital
+                Knowledge & Intelligence Proliferation among the Youth.
+              </p>
+              <p>
+                Members of GACB shall be the nerve-center to teach and train,
+                guide and supervise students to FAB and make them
+                tech-awakened citizens.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row about-extra">
+          <div class="col-lg-6 wow fadeInUp order-1 order-lg-2">
+            <img src="./images/bussinesCouncil.jpg" class="img-fluid" alt="" />
+          </div>
+
+          <div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
+            <div class="card-body mt-xl-5">
+              <h4>Global Student Council Board</h4>
+              <p>
+                Student Chapters provide unique opportunities for networking,
+                mentoring and bonding over common interests.
+              </p>
+              <p>
+                They provide support both within the student community and to
+                local communities outside the institution
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- #intro -->
+    <!-- #about -->
 
-    <main id="main">
-      <!--==========================
-      About Us Section
-    ============================-->
-      <section id="about">
-        <div class="container">
-          <header class="section-header align-content-md-center">
-            <h3>About Us</h3>
-            <p>
-              <strong>A Global Enterprise of EST Global Inc.</strong><br />
-              FAB Association is an organization that was established to bring
-              together Financial and Corporate leaders, along with Blockchain
-              experts from across the globe. Endorsed by EST Global Inc, the
-              Association is a decentralized Platform for Digital Knowledge &
-              Intelligence Proliferation among the Youth. It promotes financial
-              and technological education worldwide to improve and enrich
-              business compliance and relationships as one integrated tech
-              world.
-            </p>
-          </header>
-
-          <div class="row about-extra">
-            <div class="col-lg-6 wow fadeInUp order-1 order-lg-2">
-              <img
-                src="./images/studentCouncil.jpeg"
-                class="img-fluid"
-                alt=""
-              />
-            </div>
-            <div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
-              <div class="card-body mt-xl-5">
-                <h4>Global Business Council Board</h4>
-                <p>
-                  Global Business Council Board (GBCB) is the highest resource
-                  board of FAB. It consists of all the personalities from
-                  different parts of the globe who are determined to carry on
-                  the efforts of FAB – Decentralized Platform for Digital
-                  Knowledge & Intelligence Proliferation among the Youth.
-                </p>
-                <p>
-                  Members of GBCB teach and train, guide and supervise the
-                  students to further the ambitious technical agenda of FAB.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="row about-extra">
-            <div class="col-lg-6 wow fadeInUp">
-              <img
-                src="./images/academic-council.jpg"
-                class="img-fluid"
-                alt=""
-              />
-            </div>
-            <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
-              <div class="card-body mt-xl-5">
-                <h4>Global Academic Council Board</h4>
-                <p>
-                  Knowledge base or the Academics is the fulcrum for any
-                  organization. The purpose of FAB (Fintech & Blockchain
-                  Association) is to be the Decentralized Platform for Digital
-                  Knowledge & Intelligence Proliferation among the Youth.
-                </p>
-                <p>
-                  Members of GACB shall be the nerve-center to teach and train,
-                  guide and supervise students to FAB and make them
-                  tech-awakened citizens.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="row about-extra">
-            <div class="col-lg-6 wow fadeInUp order-1 order-lg-2">
-              <img
-                src="./images/bussinesCouncil.jpg"
-                class="img-fluid"
-                alt=""
-              />
-            </div>
-
-            <div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
-              <div class="card-body mt-xl-5">
-                <h4>Global Student Council Board</h4>
-                <p>
-                  Student Chapters provide unique opportunities for networking,
-                  mentoring and bonding over common interests.
-                </p>
-                <p>
-                  They provide support both within the student community and to
-                  local communities outside the institution
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- #about -->
-
-      <!--==========================
+    <!--==========================
       Services Section
     ============================-->
-      <section id="services" class="section-bg">
-        <div class="container">
-          <header class="section-header">
-            <h3>Opportunities</h3>
-            <!-- <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</p> -->
-          </header>
+    <section id="services" class="section-bg">
+      <div class="container">
+        <header class="section-header">
+          <h3>Opportunities</h3>
+          <!-- <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</p> -->
+        </header>
 
-          <div class="row">
-            <div
-              class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp"
-              data-wow-duration="1.4s"
-            >
-              <div class="box">
-                <div class="icon">
-                  <i
-                    class="ion-ios-analytics-outline"
-                    style="color: #ff689b"
-                  ></i>
-                </div>
-                <h4 class="title">
-                  <a href=""
-                    >Complimentary Subscription to FAB exclusive resources</a
-                  >
-                </h4>
-                <p class="description">
-                  Chapter Members are eligible for a complimentary electronic
-                  resource of Fintech and Blockchain technology in PDF’s, files
-                  and E-books and will be able to learn from worldwide renowned
-                  Masters.
-                </p>
+        <div class="row">
+          <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon">
+                <i class="ion-ios-analytics-outline" style="color: #ff689b"></i>
               </div>
+              <h4 class="title">
+                <a href="">Complimentary Subscription to FAB exclusive resources</a>
+              </h4>
+              <p class="description">
+                Chapter Members are eligible for a complimentary electronic
+                resource of Fintech and Blockchain technology in PDF’s, files
+                and E-books and will be able to learn from worldwide renowned
+                Masters.
+              </p>
             </div>
-            <div
-              class="col-md-6 col-lg-5 wow bounceInUp"
-              data-wow-duration="1.4s"
-            >
-              <div class="box">
-                <div class="icon">
-                  <i
-                    class="ion-ios-bookmarks-outline"
-                    style="color: #e9bf06"
-                  ></i>
-                </div>
-                <h4 class="title"><a href="">Conferences</a></h4>
-                <p class="description">
-                  Chapter members are eligible to attend all seminars and
-                  conferences without any payment, and are also eligible to
-                  receive certificates which will enhance their CV.
-                </p>
+          </div>
+          <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon">
+                <i class="ion-ios-bookmarks-outline" style="color: #e9bf06"></i>
               </div>
+              <h4 class="title"><a href="">Conferences</a></h4>
+              <p class="description">
+                Chapter members are eligible to attend all seminars and
+                conferences without any payment, and are also eligible to
+                receive certificates which will enhance their CV.
+              </p>
             </div>
+          </div>
 
-            <div
-              class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp"
-              data-wow-delay="0.1s"
-              data-wow-duration="1.4s"
-            >
-              <div class="box">
-                <div class="icon">
-                  <i class="ion-ios-paper-outline" style="color: #3fcdc7"></i>
-                </div>
-                <h4 class="title">
-                  <a href="">Knowledge sharing and Networking</a>
-                </h4>
-                <p class="description">
-                  Chapter members will get the expose of and connect with
-                  professional networks which may give them opportunity of
-                  internships or may get the opportunity of getting recruited by
-                  reputed organizations.
-                </p>
+          <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon">
+                <i class="ion-ios-paper-outline" style="color: #3fcdc7"></i>
               </div>
+              <h4 class="title">
+                <a href="">Knowledge sharing and Networking</a>
+              </h4>
+              <p class="description">
+                Chapter members will get the expose of and connect with
+                professional networks which may give them opportunity of
+                internships or may get the opportunity of getting recruited by
+                reputed organizations.
+              </p>
             </div>
-            <div
-              class="col-md-6 col-lg-5 wow bounceInUp"
-              data-wow-delay="0.1s"
-              data-wow-duration="1.4s"
-            >
-              <div class="box">
-                <div class="icon">
-                  <i
-                    class="ion-ios-speedometer-outline"
-                    style="color: #41cf2e"
-                  ></i>
-                </div>
-                <h4 class="title">
-                  <a href="">Explore career opportunities</a>
-                </h4>
-                <p class="description">
-                  Opportunity to link students with Corporate world, with the
-                  aim of providing them with professional environment wherein
-                  they may get opportunity to work on various live projects.
-                </p>
+          </div>
+          <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon">
+                <i class="ion-ios-speedometer-outline" style="color: #41cf2e"></i>
               </div>
+              <h4 class="title">
+                <a href="">Explore career opportunities</a>
+              </h4>
+              <p class="description">
+                Opportunity to link students with Corporate world, with the
+                aim of providing them with professional environment wherein
+                they may get opportunity to work on various live projects.
+              </p>
             </div>
+          </div>
 
-            <div
-              class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp"
-              data-wow-delay="0.2s"
-              data-wow-duration="1.4s"
-            >
-              <div class="box">
-                <div class="icon">
-                  <i class="ion-ios-world-outline" style="color: #d6ff22"></i>
-                </div>
-                <h4 class="title">
-                  <a href="">Make contacts that will last a lifetime</a>
-                </h4>
-                <p class="description">
-                  Corporate Networking and Academic Collaborations which FAB
-                  platform provides to it's members gives them an opportunity to
-                  associate and interact with esteemed organizations and
-                  business leaders. These counselling may come from global
-                  leaders even.
-                </p>
+          <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon">
+                <i class="ion-ios-world-outline" style="color: #d6ff22"></i>
               </div>
+              <h4 class="title">
+                <a href="">Make contacts that will last a lifetime</a>
+              </h4>
+              <p class="description">
+                Corporate Networking and Academic Collaborations which FAB
+                platform provides to it's members gives them an opportunity to
+                associate and interact with esteemed organizations and
+                business leaders. These counselling may come from global
+                leaders even.
+              </p>
             </div>
-            <div
-              class="col-md-6 col-lg-5 wow bounceInUp"
-              data-wow-delay="0.2s"
-              data-wow-duration="1.4s"
-            >
-              <div class="box">
-                <div class="icon">
-                  <i class="ion-ios-clock-outline" style="color: #4680ff"></i>
-                </div>
-                <h4 class="title"><a href="">Develop leadership skills</a></h4>
-                <p class="description">
-                  Share ideas and enthusiasm with fellow students and faculties
-                  from all relevant departments. Provide them technical and
-                  social projects according to their skills and ability in order
-                  to prepare them for future opportunities.
-                </p>
+          </div>
+          <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon">
+                <i class="ion-ios-clock-outline" style="color: #4680ff"></i>
               </div>
+              <h4 class="title"><a href="">Develop leadership skills</a></h4>
+              <p class="description">
+                Share ideas and enthusiasm with fellow students and faculties
+                from all relevant departments. Provide them technical and
+                social projects according to their skills and ability in order
+                to prepare them for future opportunities.
+              </p>
             </div>
           </div>
         </div>
-      </section>
-      <!-- #services -->
+      </div>
+    </section>
+    <!-- #services -->
 
-      <!--==========================
+    <!--==========================
       Why Us Section
     ============================-->
-      <section id="why-us" class="wow fadeIn">
-        <div class="container">
-          <header class="section-header">
-            <h3>Why FAB ?</h3>
-            <!-- <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</p> -->
-          </header>
+    <section id="why-us" class="wow fadeIn">
+      <div class="container">
+        <header class="section-header">
+          <h3>Why FAB ?</h3>
+          <!-- <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</p> -->
+        </header>
 
-          <div class="row row-eq-height justify-content-center">
-            <div class="col-lg-4 mb-4">
-              <div class="card wow bounceInUp">
-                <i class="fa fa-diamond"></i>
-                <div class="card-body">
-                  <h5 class="card-title">Internships and Job Opportunities</h5>
-                  <p class="card-text">
-                    Opportunity to link students with Corporate world, with the
-                    aim of providing them domain and environment they want to
-                    explore.
-                  </p>
-                  <a href="#" class="readmore">Read more </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 mb-4">
-              <div class="card wow bounceInUp">
-                <i class="fa fa-language"></i>
-                <div class="card-body">
-                  <h5 class="card-title">Technical and Social Projects</h5>
-                  <p class="card-text">
-                    Providing them technical and social projects according to
-                    their skills and ability in order to train them for future
-                    aspects and enhancing their expertise
-                  </p>
-                  <a href="#" class="readmore">Read more </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 mb-4">
-              <div class="card wow bounceInUp">
-                <i class="fa fa-object-group"></i>
-                <div class="card-body">
-                  <h5 class="card-title">Networking and Collaborations</h5>
-                  <p class="card-text">
-                    FAB provide plateform to it's student members to associate
-                    with esteem organization and business leaders to increase
-                    theirs networking so that they can learn and get councelling
-                    directly from them across the globe .
-                  </p>
-                  <a href="#" class="readmore">Read more </a>
-                </div>
+        <div class="row row-eq-height justify-content-center">
+          <div class="col-lg-4 mb-4">
+            <div class="card wow bounceInUp">
+              <i class="fa fa-diamond"></i>
+              <div class="card-body">
+                <h5 class="card-title">Internships and Job Opportunities</h5>
+                <p class="card-text">
+                  Opportunity to link students with Corporate world, with the
+                  aim of providing them domain and environment they want to
+                  explore.
+                </p>
+                <a target="blank" href="https://forms.gle/TrLR3AZiw5yKXX3u9" class="readmore">Read more
+                </a>
               </div>
             </div>
           </div>
 
-          <div class="row counters">
-            <div class="col-lg-3 col-6 text-center">
-              <span data-toggle="counter-up">274</span>
-              <p>Clients</p>
+          <div class="col-lg-4 mb-4">
+            <div class="card wow bounceInUp">
+              <i class="fa fa-language"></i>
+              <div class="card-body">
+                <h5 class="card-title">Technical and Social Projects</h5>
+                <p class="card-text">
+                  Providing them technical and social projects according to
+                  their skills and ability in order to train them for future
+                  aspects and enhancing their expertise
+                </p>
+                <a href="#" class="readmore">Read more </a>
+              </div>
             </div>
+          </div>
 
-            <div class="col-lg-3 col-6 text-center">
-              <span data-toggle="counter-up">421</span>
-              <p>Projects</p>
-            </div>
-
-            <div class="col-lg-3 col-6 text-center">
-              <span data-toggle="counter-up">1,364</span>
-              <p>Hours Of Support</p>
-            </div>
-
-            <div class="col-lg-3 col-6 text-center">
-              <span data-toggle="counter-up">18</span>
-              <p>Hard Workers</p>
+          <div class="col-lg-4 mb-4">
+            <div class="card wow bounceInUp">
+              <i class="fa fa-object-group"></i>
+              <div class="card-body">
+                <h5 class="card-title">Networking and Collaborations</h5>
+                <p class="card-text">
+                  FAB provide plateform to it's student members to associate
+                  with esteem organization and business leaders to increase
+                  theirs networking so that they can learn and get councelling
+                  directly from them across the globe .
+                </p>
+                <a href="#" class="readmore">Read more </a>
+              </div>
             </div>
           </div>
         </div>
-      </section>
 
-      <!--==========================
+        <div class="row counters">
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">274</span>
+            <p>Clients</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">421</span>
+            <p>Projects</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">1,364</span>
+            <p>Hours Of Support</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">18</span>
+            <p>Hard Workers</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==========================
       Portfolio Section
     ============================-->
-      <!-- <section id="portfolio" class="clearfix">
+    <!-- <section id="portfolio" class="clearfix">
       <div class="container">
 
         <header class="section-header">
@@ -593,881 +573,819 @@
 
       </div>
     </section> -->
-    
-      <!-- <!-- #portfolio
+
+    <!-- <!-- #portfolio
 
       <!--==========================
       Clients Section
     ============================-->
-     <!-- <section id="testimonials" class="section-bg">
+    <!-- <section id="testimonials" class="section-bg">
     </section> -->
-      <div class="container">
-        <header class="section-header">
-          <h3>Our Events and Collaborations</h3>
-        </header>
+    <div class="container">
+      <header class="section-header">
+        <h3>Our Events and Collaborations</h3>
+      </header>
 
-        <div class="row justify-content-center">
-          <div class="col-lg-6">
-            <div class="owl-carousel testimonials-carousel wow fadeInUp">
-              <div class="testimonial-item">
-                <img
-                  src="images/Events/ours.jpg"
-                  class="testimonial-img"
-                  alt=""
-                />
-                <!-- <h3>Saul Goodman</h3>
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <div class="owl-carousel testimonials-carousel wow fadeInUp">
+            <div class="testimonial-item">
+              <img src="images/Events/ours.jpg" class="testimonial-img" alt="" />
+              <!-- <h3>Saul Goodman</h3>
               <h4>Ceo &amp; Founder</h4>
               <p>
                 Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
                 quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
               </p> -->
-              </div>
+            </div>
 
-              <div class="testimonial-item">
-                <img
-                  src="images/Events/DSC_0001.JPG"
-                  class="testimonial-img"
-                  alt=""
-                />
-                <!-- <h3>Sara Wilsson</h3>
+            <div class="testimonial-item">
+              <img src="images/Events/DSC_0001.JPG" class="testimonial-img" alt="" />
+              <!-- <h3>Sara Wilsson</h3>
               <h4>Designer</h4>
               <p>
                 Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis
                 quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
               </p> -->
-              </div>
+            </div>
 
-              <div class="testimonial-item">
-                <img
-                  src="images/Events/image_4fc9dcfe-2b50-4d1f-afb7-d4eb69fcc2ba20220416_201738.jpg"
-                  class="testimonial-img"
-                  alt=""
-                />
-                <!-- <h3>Jena Karlis</h3>
+            <div class="testimonial-item">
+              <img src="images/Events/image_4fc9dcfe-2b50-4d1f-afb7-d4eb69fcc2ba20220416_201738.jpg"
+                class="testimonial-img" alt="" />
+              <!-- <h3>Jena Karlis</h3>
               <h4>Store Owner</h4>
               <p>
                 Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim
                 tempor labore quem eram duis noster aute amet eram fore quis sint minim.
               </p> -->
-              </div>
+            </div>
 
-              <div class="testimonial-item">
-                <img
-                  src="images/Events/image_669293bc-5993-48c6-af7a-bd2f4e87dd7220220416_201816.jpg"
-                  class="testimonial-img"
-                  alt=""
-                />
-                <!-- <h3>Matt Brandon</h3>
+            <div class="testimonial-item">
+              <img src="images/Events/image_669293bc-5993-48c6-af7a-bd2f4e87dd7220220416_201816.jpg"
+                class="testimonial-img" alt="" />
+              <!-- <h3>Matt Brandon</h3>
               <h4>Freelancer</h4>
               <p>
                 Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit
                 minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
               </p> -->
-              </div>
-              <div class="testimonial-item">
-                <img
-                  src="images/Events/1650132824825.jpg"
-                  class="testimonial-img"
-                  alt=""
-                />
-                <!-- <h3>Matt Brandon</h3>
+            </div>
+            <div class="testimonial-item">
+              <img src="images/Events/1650132824825.jpg" class="testimonial-img" alt="" />
+              <!-- <h3>Matt Brandon</h3>
               <h4>Freelancer</h4>
               <p>
                 Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit
                 minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
               </p> -->
-              </div>
+            </div>
 
-              <div class="testimonial-item">
-                <img
-                  src="images/Events/image_7cf8f09b-2e68-4237-aa95-386b021dba3e20220416_201733.jpg"
-                  class="testimonial-img"
-                  alt=""
-                />
-                <!-- <h3>John Larson</h3>
+            <div class="testimonial-item">
+              <img src="images/Events/image_7cf8f09b-2e68-4237-aa95-386b021dba3e20220416_201733.jpg"
+                class="testimonial-img" alt="" />
+              <!-- <h3>John Larson</h3>
               <h4>Entrepreneur</h4>
               <p>
                 Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa
                 labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
               </p> -->
+            </div>
+            <div class="testimonial-item">
+              <img src="images/Events/IMG_5826.JPG" class="testimonial-img" alt="" />
+              <!-- <h3>John Larson</h3>
+              <h4>Entrepreneur</h4>
+              <p>
+                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa
+                labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+              </p> -->
+            </div>
+            <div class="testimonial-item">
+              <img src="images/Events/IMG_5831.JPG" class="testimonial-img" alt="" />
+              <!-- <h3>John Larson</h3>
+              <h4>Entrepreneur</h4>
+              <p>
+                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa
+                labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+              </p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- #testimonials -->
+
+    <!--==========================
+      Team Section
+    ============================-->
+    <section id="team">
+      <div class="container">
+        <div class="section-header">
+          <h3>Our Board Members</h3>
+          <!-- <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p> -->
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3 col-md-6 wow fadeInUp">
+            <div class="member">
+              <img src="images/bhaskar.jpg" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Dr. Sindhu Bhaskar</h4>
+                  <span>Chairman and CEO</span>
+                  <div class="social">
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
               </div>
-              <div class="testimonial-item">
-                <img
-                  src="images/Events/IMG_5826.JPG"
-                  class="testimonial-img"
-                  alt=""
-                />
-                <!-- <h3>John Larson</h3>
-              <h4>Entrepreneur</h4>
-              <p>
-                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa
-                labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-              </p> -->
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="member">
+              <img src="images/rosalia.jpg" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>H.E. Dr. Rosalia Arteaga</h4>
+                  <span>Advisory Board Member</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
               </div>
-              <div class="testimonial-item">
-                <img
-                  src="images/Events/IMG_5831.JPG"
-                  class="testimonial-img"
-                  alt=""
-                />
-                <!-- <h3>John Larson</h3>
-              <h4>Entrepreneur</h4>
-              <p>
-                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa
-                labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-              </p> -->
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="member">
+              <img src="images/millanlt.jpg" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Prof. Dr. Sir Milan Krajnc</h4>
+                  <span>GACB Member</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="member">
+              <img src="images/saurabh.jpg" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Mr. Saurav Kumar</h4>
+                  <span>Co-Founder & COO</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="member">
+              <img src="images/akapoor.jpg" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Mr. Raj A. Kapoor</h4>
+                  <span>Board of Director</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="member">
+              <img src="images/shellems.jpg" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Miss. Shelle Fantastic</h4>
+                  <span>Board of Director</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="member">
+              <img src="images/christopher.jpg" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Mr. Christopher Muller</h4>
+                  <span>GBCB Board member</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="member">
+              <img src="images/ravilt.jpg" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Mr. Ravi Yarlagadda</h4>
+                  <span>GBCB Board Member</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="member">
+              <img src="images/amitlt.jpg" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Mr. Amit Upadhyay</h4>
+                  <span>GBCB Board Member</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="member">
+              <img src="images/anuragranjan.jpg" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Mr. Anurag Ranjan</h4>
+                  <span>GACB Board Member</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="member">
+              <img src="images/modupe.jpg" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Ms. Modupe Ativie</h4>
+                  <span>SheFAB Board Member</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="member">
+              <img src="images/achialt.jpg" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Ms. Achia Khaleda Nila</h4>
+                  <span>SheFAB Board Member</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="member">
+              <img src="images/joane.jpg" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Ms. Joanne Mason Brooks</h4>
+                  <span>SheFAB Board Member</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="member">
+              <img src="images/soumya.jpg" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Ms. Saumya Om</h4>
+                  <span>SheFAB Board Member</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="member">
+              <img src="images/jameslt.jpg" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Mr. James Toh</h4>
+                  <span>GBCB Board Member</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="member">
+              <img src="images/rameshlt.jpg" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Mr. Ramesh Shrikonda</h4>
+                  <span>GBCB Board Member</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="member">
+              <img src="images/daniellt.jpg" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Mr. Daniel Trovato</h4>
+                  <span>GBCB Board Member</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="member">
+              <img src="images/abrahamlt.jpg" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Mr. Onochie Abraham Lawrence</h4>
+                  <span>GBCB Board Member</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="member">
+              <img src="images/ajaykumar.jpg" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Prof. (Dr.) Ajay Kumar</h4>
+                  <span>GACB Board Member</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="member">
+              <img src="images/philiphalt.jpg" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Ms. Philippa Scobie</h4>
+                  <span>SheFAB Board Member</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="member">
+              <img src="images/ashis.jpg" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Mr. Ashish Srivastava</h4>
+                  <span>Program Strategist</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="member">
+              <img src="images/victor.jpg" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Mr. Victor Uche Obioma</h4>
+                  <span>Director FAB Africa</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="member">
+              <img src="images/navneet.jpg" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Mr. Navneet Singhrol</h4>
+                  <span>GBCB Board Member</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="member">
+              <img src="images/kushanklt.jpg" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Mr. Kushank Sindhu</h4>
+                  <span>Legal Advisor</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <!-- #testimonials -->
+    </section>
+    <!-- #team -->
 
-      <!--==========================
-      Team Section
-    ============================-->
-      <section id="team">
-        <div class="container">
-          <div class="section-header">
-            <h3>Our Board Members</h3>
-            <!-- <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p> -->
-          </div>
-
-          <div class="row">
-            <div class="col-lg-3 col-md-6 wow fadeInUp">
-              <div class="member">
-                <img src="images/bhaskar.jpg" class="img-fluid" alt="" />
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <h4>Dr. Sindhu Bhaskar</h4>
-                    <span>Chairman and CEO</span>
-                    <div class="social">
-                      <a href="#"><i class="fa fa-twitter"></i></a>
-                      <a href="#"><i class="fa fa-facebook"></i></a>
-                      <a href="#"><i class="fa fa-google-plus"></i></a>
-                      <a href="#"><i class="fa fa-linkedin"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-              <div class="member">
-                <img src="images/rosalia.jpg" class="img-fluid" alt="" />
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <h4>H.E. Dr. Rosalia Arteaga</h4>
-                    <span>Advisory Board Member</span>
-                    <div class="social">
-                      <a href=""><i class="fa fa-twitter"></i></a>
-                      <a href=""><i class="fa fa-facebook"></i></a>
-                      <a href=""><i class="fa fa-google-plus"></i></a>
-                      <a href=""><i class="fa fa-linkedin"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-              <div class="member">
-                <img src="images/millanlt.jpg" class="img-fluid" alt="" />
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <h4>Prof. Dr. Sir Milan Krajnc</h4>
-                    <span>GACB Member</span>
-                    <div class="social">
-                      <a href=""><i class="fa fa-twitter"></i></a>
-                      <a href=""><i class="fa fa-facebook"></i></a>
-                      <a href=""><i class="fa fa-google-plus"></i></a>
-                      <a href=""><i class="fa fa-linkedin"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-              <div class="member">
-                <img src="images/saurabh.jpg" class="img-fluid" alt="" />
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <h4>Mr. Saurav Kumar</h4>
-                    <span>Co-Founder & COO</span>
-                    <div class="social">
-                      <a href=""><i class="fa fa-twitter"></i></a>
-                      <a href=""><i class="fa fa-facebook"></i></a>
-                      <a href=""><i class="fa fa-google-plus"></i></a>
-                      <a href=""><i class="fa fa-linkedin"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-              <div class="member">
-                <img src="images/akapoor.jpg" class="img-fluid" alt="" />
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <h4>Mr. Raj A. Kapoor</h4>
-                    <span>Board of Director</span>
-                    <div class="social">
-                      <a href=""><i class="fa fa-twitter"></i></a>
-                      <a href=""><i class="fa fa-facebook"></i></a>
-                      <a href=""><i class="fa fa-google-plus"></i></a>
-                      <a href=""><i class="fa fa-linkedin"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-              <div class="member">
-                <img src="images/shellems.jpg" class="img-fluid" alt="" />
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <h4>Miss. Shelle Fantastic</h4>
-                    <span>Board of Director</span>
-                    <div class="social">
-                      <a href=""><i class="fa fa-twitter"></i></a>
-                      <a href=""><i class="fa fa-facebook"></i></a>
-                      <a href=""><i class="fa fa-google-plus"></i></a>
-                      <a href=""><i class="fa fa-linkedin"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-              <div class="member">
-                <img src="images/christopher.jpg" class="img-fluid" alt="" />
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <h4>Mr. Christopher Muller</h4>
-                    <span>GBCB Board member</span>
-                    <div class="social">
-                      <a href=""><i class="fa fa-twitter"></i></a>
-                      <a href=""><i class="fa fa-facebook"></i></a>
-                      <a href=""><i class="fa fa-google-plus"></i></a>
-                      <a href=""><i class="fa fa-linkedin"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-              <div class="member">
-                <img src="images/ravilt.jpg" class="img-fluid" alt="" />
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <h4>Mr. Ravi Yarlagadda</h4>
-                    <span>GBCB Board Member</span>
-                    <div class="social">
-                      <a href=""><i class="fa fa-twitter"></i></a>
-                      <a href=""><i class="fa fa-facebook"></i></a>
-                      <a href=""><i class="fa fa-google-plus"></i></a>
-                      <a href=""><i class="fa fa-linkedin"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-              <div class="member">
-                <img src="images/amitlt.jpg" class="img-fluid" alt="" />
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <h4>Mr. Amit Upadhyay</h4>
-                    <span>GBCB Board Member</span>
-                    <div class="social">
-                      <a href=""><i class="fa fa-twitter"></i></a>
-                      <a href=""><i class="fa fa-facebook"></i></a>
-                      <a href=""><i class="fa fa-google-plus"></i></a>
-                      <a href=""><i class="fa fa-linkedin"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-              <div class="member">
-                <img src="images/anuragranjan.jpg" class="img-fluid" alt="" />
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <h4>Mr. Anurag Ranjan</h4>
-                    <span>GACB Board Member</span>
-                    <div class="social">
-                      <a href=""><i class="fa fa-twitter"></i></a>
-                      <a href=""><i class="fa fa-facebook"></i></a>
-                      <a href=""><i class="fa fa-google-plus"></i></a>
-                      <a href=""><i class="fa fa-linkedin"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-              <div class="member">
-                <img src="images/modupe.jpg" class="img-fluid" alt="" />
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <h4>Ms. Modupe Ativie</h4>
-                    <span>SheFAB Board Member</span>
-                    <div class="social">
-                      <a href=""><i class="fa fa-twitter"></i></a>
-                      <a href=""><i class="fa fa-facebook"></i></a>
-                      <a href=""><i class="fa fa-google-plus"></i></a>
-                      <a href=""><i class="fa fa-linkedin"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-              <div class="member">
-                <img src="images/achialt.jpg" class="img-fluid" alt="" />
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <h4>Ms. Achia Khaleda Nila</h4>
-                    <span>SheFAB Board Member</span>
-                    <div class="social">
-                      <a href=""><i class="fa fa-twitter"></i></a>
-                      <a href=""><i class="fa fa-facebook"></i></a>
-                      <a href=""><i class="fa fa-google-plus"></i></a>
-                      <a href=""><i class="fa fa-linkedin"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-              <div class="member">
-                <img src="images/joane.jpg" class="img-fluid" alt="" />
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <h4>Ms. Joanne Mason Brooks</h4>
-                    <span>SheFAB Board Member</span>
-                    <div class="social">
-                      <a href=""><i class="fa fa-twitter"></i></a>
-                      <a href=""><i class="fa fa-facebook"></i></a>
-                      <a href=""><i class="fa fa-google-plus"></i></a>
-                      <a href=""><i class="fa fa-linkedin"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-              <div class="member">
-                <img src="images/soumya.jpg" class="img-fluid" alt="" />
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <h4>Ms. Saumya Om</h4>
-                    <span>SheFAB Board Member</span>
-                    <div class="social">
-                      <a href=""><i class="fa fa-twitter"></i></a>
-                      <a href=""><i class="fa fa-facebook"></i></a>
-                      <a href=""><i class="fa fa-google-plus"></i></a>
-                      <a href=""><i class="fa fa-linkedin"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-              <div class="member">
-                <img src="images/jameslt.jpg" class="img-fluid" alt="" />
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <h4>Mr. James Toh</h4>
-                    <span>GBCB Board Member</span>
-                    <div class="social">
-                      <a href=""><i class="fa fa-twitter"></i></a>
-                      <a href=""><i class="fa fa-facebook"></i></a>
-                      <a href=""><i class="fa fa-google-plus"></i></a>
-                      <a href=""><i class="fa fa-linkedin"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-              <div class="member">
-                <img src="images/rameshlt.jpg" class="img-fluid" alt="" />
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <h4>Mr. Ramesh Shrikonda</h4>
-                    <span>GBCB Board Member</span>
-                    <div class="social">
-                      <a href=""><i class="fa fa-twitter"></i></a>
-                      <a href=""><i class="fa fa-facebook"></i></a>
-                      <a href=""><i class="fa fa-google-plus"></i></a>
-                      <a href=""><i class="fa fa-linkedin"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-              <div class="member">
-                <img src="images/daniellt.jpg" class="img-fluid" alt="" />
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <h4>Mr. Daniel Trovato</h4>
-                    <span>GBCB Board Member</span>
-                    <div class="social">
-                      <a href=""><i class="fa fa-twitter"></i></a>
-                      <a href=""><i class="fa fa-facebook"></i></a>
-                      <a href=""><i class="fa fa-google-plus"></i></a>
-                      <a href=""><i class="fa fa-linkedin"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-              <div class="member">
-                <img src="images/abrahamlt.jpg" class="img-fluid" alt="" />
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <h4>Mr. Onochie Abraham Lawrence</h4>
-                    <span>GBCB Board Member</span>
-                    <div class="social">
-                      <a href=""><i class="fa fa-twitter"></i></a>
-                      <a href=""><i class="fa fa-facebook"></i></a>
-                      <a href=""><i class="fa fa-google-plus"></i></a>
-                      <a href=""><i class="fa fa-linkedin"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-              <div class="member">
-                <img src="images/ajaykumar.jpg" class="img-fluid" alt="" />
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <h4>Prof. (Dr.) Ajay Kumar</h4>
-                    <span>GACB Board Member</span>
-                    <div class="social">
-                      <a href=""><i class="fa fa-twitter"></i></a>
-                      <a href=""><i class="fa fa-facebook"></i></a>
-                      <a href=""><i class="fa fa-google-plus"></i></a>
-                      <a href=""><i class="fa fa-linkedin"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-              <div class="member">
-                <img src="images/philiphalt.jpg" class="img-fluid" alt="" />
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <h4>Ms. Philippa Scobie</h4>
-                    <span>SheFAB Board Member</span>
-                    <div class="social">
-                      <a href=""><i class="fa fa-twitter"></i></a>
-                      <a href=""><i class="fa fa-facebook"></i></a>
-                      <a href=""><i class="fa fa-google-plus"></i></a>
-                      <a href=""><i class="fa fa-linkedin"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-              <div class="member">
-                <img src="images/ashis.jpg" class="img-fluid" alt="" />
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <h4>Mr. Ashish Srivastava</h4>
-                    <span>Program Strategist</span>
-                    <div class="social">
-                      <a href=""><i class="fa fa-twitter"></i></a>
-                      <a href=""><i class="fa fa-facebook"></i></a>
-                      <a href=""><i class="fa fa-google-plus"></i></a>
-                      <a href=""><i class="fa fa-linkedin"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-              <div class="member">
-                <img src="images/victor.jpg" class="img-fluid" alt="" />
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <h4>Mr. Victor Uche Obioma</h4>
-                    <span>Director FAB Africa</span>
-                    <div class="social">
-                      <a href=""><i class="fa fa-twitter"></i></a>
-                      <a href=""><i class="fa fa-facebook"></i></a>
-                      <a href=""><i class="fa fa-google-plus"></i></a>
-                      <a href=""><i class="fa fa-linkedin"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-              <div class="member">
-                <img src="images/navneet.jpg" class="img-fluid" alt="" />
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <h4>Mr. Navneet Singhrol</h4>
-                    <span>GBCB Board Member</span>
-                    <div class="social">
-                      <a href=""><i class="fa fa-twitter"></i></a>
-                      <a href=""><i class="fa fa-facebook"></i></a>
-                      <a href=""><i class="fa fa-google-plus"></i></a>
-                      <a href=""><i class="fa fa-linkedin"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-              <div class="member">
-                <img src="images/kushanklt.jpg" class="img-fluid" alt="" />
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <h4>Mr. Kushank Sindhu</h4>
-                    <span>Legal Advisor</span>
-                    <div class="social">
-                      <a href=""><i class="fa fa-twitter"></i></a>
-                      <a href=""><i class="fa fa-facebook"></i></a>
-                      <a href=""><i class="fa fa-google-plus"></i></a>
-                      <a href=""><i class="fa fa-linkedin"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- #team -->
-
-      <!--==========================
+    <!--==========================
       Clients Section
     ============================-->
-      <section id="clients" class="section-bg">
-        <div class="container">
-          <div class="section-header">
-            <h3>Our Partners</h3>
+    <section id="clients" class="section-bg">
+      <div class="container">
+        <div class="section-header">
+          <h3>Our Partners</h3>
+        </div>
+
+        <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="./images/ecosis.jpg" class="img-fluid" alt="" />
+            </div>
           </div>
 
-          <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="client-logo">
-                <img src="./images/ecosis.jpg" class="img-fluid" alt="" />
-              </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="./images/logo (5).png" class="img-fluid" alt="" />
             </div>
+          </div>
 
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="client-logo">
-                <img src="./images/logo (5).png" class="img-fluid" alt="" />
-              </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="./images/Fudx.jpg" class="img-fluid" alt="" />
             </div>
+          </div>
 
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="client-logo">
-                <img src="./images/Fudx.jpg" class="img-fluid" alt="" />
-              </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="./images/Nexus.jpg" class="img-fluid" alt="" />
             </div>
+          </div>
 
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="client-logo">
-                <img src="./images/Nexus.jpg" class="img-fluid" alt="" />
-              </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="./images/ryptoNew.jpg" class="img-fluid" alt="" />
             </div>
+          </div>
 
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="client-logo">
-                <img src="./images/ryptoNew.jpg" class="img-fluid" alt="" />
-              </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="./images/shefan_pro.png" class="img-fluid" alt="" />
             </div>
+          </div>
 
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="client-logo">
-                <img src="./images/shefan_pro.png" class="img-fluid" alt="" />
-              </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="./images/ims.blue.logo.png" class="img-fluid" alt="" />
             </div>
+          </div>
 
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="client-logo">
-                <img
-                  src="./images/ims.blue.logo.png"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="./images/fab-nititantra.png" class="img-fluid" alt="" />
             </div>
-
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="client-logo">
-                <img
-                  src="./images/fab-nititantra.png"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="./images/viue.jpg" class="img-fluid" alt="" />
             </div>
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="client-logo">
-                <img src="./images/viue.jpg" class="img-fluid" alt="" />
-              </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="./images/viyona.jpg" class="img-fluid" alt="" />
             </div>
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="client-logo">
-                <img src="./images/viyona.jpg" class="img-fluid" alt="" />
-              </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="./images/coinstore.jpg" class="img-fluid" alt="" />
             </div>
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="client-logo">
-                <img src="./images/coinstore.jpg" class="img-fluid" alt="" />
-              </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="./images/spagteq.png" class="img-fluid" alt="" />
             </div>
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="client-logo">
-                <img src="./images/spagteq.png" class="img-fluid" alt="" />
-              </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="./images/1650168236431.jpg" class="img-fluid" alt="" />
             </div>
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="client-logo">
-                <img src="./images/1650168236431.jpg" class="img-fluid" alt="" />
-              </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="./images/1650168236414.png" class="img-fluid" alt="" />
             </div>
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="client-logo">
-                <img src="./images/1650168236414.png" class="img-fluid" alt="" />
-              </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="./images/chandigarhlogo.png" class="img-fluid" alt="" />
             </div>
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="client-logo">
-                <img src="./images/chandigarhlogo.png" class="img-fluid" alt="" />
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="client-logo">
-                <img src="./images/SheFab.jpg" class="img-fluid" alt="" />
-              </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="./images/SheFab.jpg" class="img-fluid" alt="" />
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!--==========================
+    <!--==========================
       Contact Section
     ============================-->
-      <section id="contact" class="pl-4">
-        <div class="container-fluid">
-          <div class="section-header">
-            <h3>Contact Us</h3>
-          </div>
+    <section id="contact" class="pl-4">
+      <div class="container-fluid">
+        <div class="section-header">
+          <h3>Contact Us</h3>
+        </div>
 
-          <div class="row wow fadeInUp">
-            <!-- <div class="col-lg-6">
+        <div class="row wow fadeInUp">
+          <!-- <div class="col-lg-6">
             <div class="map mb-4 mb-lg-0">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
                 frameborder="0" style="border:0; width: 100%; height: 312px;" allowfullscreen></iframe>
             </div>
           </div> -->
-            <div class="row justify-content-between">
-              <div class="col-md-6 info">
-                <i class="ion-ios-location-outline"></i>
-                <p>
-                  EST GLOBAL INC. Cambridge Innovation Center One Broadway, 14th
-                  floor, Cambridge, MA 02142 USA
-                </p>
-              </div>
-              <div class="col-md-4 info">
-                <i class="ion-ios-email-outline"></i>
-                <p>Info@intfab.org</p>
-              </div>
-              <div class="col-md-3 info">
-                <i class="ion-ios-telephone-outline"></i>
-                <p>+919304026385</p>
-                <p>+1 (786) 554-0579</p>
-              </div>
+          <div class="row justify-content-between">
+            <div class="col-md-6 info">
+              <i class="ion-ios-location-outline"></i>
+              <p>
+                EST GLOBAL INC. Cambridge Innovation Center One Broadway, 14th
+                floor, Cambridge, MA 02142 USA
+              </p>
             </div>
-
-            <div class="form">
-              <div id="sendmessage">Your message has been sent. Thank you!</div>
-              <div id="errormessage"></div>
-              <form action="" method="post" role="form" class="contactForm">
-                <div class="form-row">
-                  <div class="form-group col-lg-6">
-                    <input
-                      type="text"
-                      name="name"
-                      class="form-control"
-                      id="name"
-                      placeholder="Your Name"
-                      data-rule="minlen:4"
-                      data-msg="Please enter at least 4 chars"
-                    />
-                    <div class="validation"></div>
-                  </div>
-                  <div class="form-group col-lg-6">
-                    <input
-                      type="email"
-                      class="form-control"
-                      name="email"
-                      id="email"
-                      placeholder="Your Email"
-                      data-rule="email"
-                      data-msg="Please enter a valid email"
-                    />
-                    <div class="validation"></div>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <input
-                    type="text"
-                    class="form-control"
-                    name="subject"
-                    id="subject"
-                    placeholder="Subject"
-                    data-rule="minlen:4"
-                    data-msg="Please enter at least 8 chars of subject"
-                  />
-                  <div class="validation"></div>
-                </div>
-                <div class="form-group">
-                  <textarea
-                    class="form-control"
-                    name="message"
-                    rows="5"
-                    data-rule="required"
-                    data-msg="Please write something for us"
-                    placeholder="Message"
-                  ></textarea>
-                  <div class="validation"></div>
-                </div>
-                <div class="text-center">
-                  <button type="submit" title="Send Message">
-                    Send Message
-                  </button>
-                </div>
-              </form>
+            <div class="col-md-4 info">
+              <i class="ion-ios-email-outline"></i>
+              <p>Info@intfab.org</p>
+            </div>
+            <div class="col-md-3 info">
+              <i class="ion-ios-telephone-outline"></i>
+              <p>+919304026385</p>
+              <p>+1 (786) 554-0579</p>
             </div>
           </div>
-        </div>
-      </section>
-      <!-- #contact -->
-    </main>
 
-    <!--==========================
-    Footer
-  ============================-->
-    <footer id="footer">
-      <div class="footer-top">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-4 col-md-6 footer-info">
-              <h3>FAB</h3>
-              <p>
-                FAB Association is an organization that was established to bring
-                together Financial and Corporate leaders, along with Blockchain
-                experts from across the globe. Endorsed by EST Global Inc, the
-                Association is a decentralized Platform for Digital Knowledge &
-                Intelligence Proliferation among the Youth. It promotes
-                financial and technological education worldwide to improve and
-                enrich business compliance and relationships as one integrated
-                tech world.
-              </p>
-            </div>
-
-            <div class="col-lg-2 col-md-6 footer-links">
-              <h4>Useful Links</h4>
-              <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Terms of service</a></li>
-                <li><a href="#">Privacy policy</a></li>
-              </ul>
-            </div>
-
-            <div class="col-lg-3 col-md-6 footer-contact">
-              <h4>Contact Us</h4>
-              <p>
-                EST GLOBAL INC. <br />
-                Cambridge Innovation Center<br />
-                One Broadway, 14th floor,<br />
-                Cambridge, MA 02142 USA <br />
-                <strong>Phone:</strong> +919304026385<br />
-                <strong>Phone:</strong> +1 (786) 554-0579 <br />
-                <strong>Email:</strong> Info@intfab.org<br />
-              </p>
-
-              <div class="social-links">
-                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                <a href="#" class="instagram"
-                  ><i class="fa fa-instagram"></i
-                ></a>
-                <a href="#" class="google-plus"
-                  ><i class="fa fa-google-plus"></i
-                ></a>
-                <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+          <div class="form">
+            <div id="sendmessage">Your message has been sent. Thank you!</div>
+            <div id="errormessage"></div>
+            <form action="" method="post" role="form" class="contactForm">
+              <div class="form-row">
+                <div class="form-group col-lg-6">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                    data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group col-lg-6">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+                    data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validation"></div>
+                </div>
               </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 footer-newsletter">
-              <h4>Our Newsletter</h4>
-              <!-- <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore
-              legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p> -->
-              <form action="" method="post">
-                <input type="email" name="email" /><input
-                  type="submit"
-                  value="Subscribe"
-                />
-              </form>
-            </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
+                  data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required"
+                  data-msg="Please write something for us" placeholder="Message"></textarea>
+                <div class="validation"></div>
+              </div>
+              <div class="text-center">
+                <button type="submit" title="Send Message">
+                  Send Message
+                </button>
+              </div>
+            </form>
           </div>
         </div>
       </div>
+    </section>
+    <!-- #contact -->
+  </main>
 
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="footer-top">
       <div class="container">
-        <div class="copyright">
-          &copy; Copyright <strong>FAB Group</strong>. All Rights Reserved
+        <div class="row">
+          <div class="col-lg-4 col-md-6 footer-info">
+            <h3>FAB</h3>
+            <p>
+              FAB Association is an organization that was established to bring
+              together Financial and Corporate leaders, along with Blockchain
+              experts from across the globe. Endorsed by EST Global Inc, the
+              Association is a decentralized Platform for Digital Knowledge &
+              Intelligence Proliferation among the Youth. It promotes
+              financial and technological education worldwide to improve and
+              enrich business compliance and relationships as one integrated
+              tech world.
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Terms of service</a></li>
+              <li><a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              EST GLOBAL INC. <br />
+              Cambridge Innovation Center<br />
+              One Broadway, 14th floor,<br />
+              Cambridge, MA 02142 USA <br />
+              <strong>Phone:</strong> +919304026385<br />
+              <strong>Phone:</strong> +1 (786) 554-0579 <br />
+              <strong>Email:</strong> Info@intfab.org<br />
+            </p>
+
+            <div class="social-links">
+              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <!-- <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore
+              legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p> -->
+            <form action="" method="post">
+              <input type="email" name="email" /><input type="submit" value="Subscribe" />
+            </form>
+          </div>
         </div>
-        <!-- <div class="credits">
-        <!--
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>FAB Group</strong>. All Rights Reserved
+      </div>
+      <!-- <div class="credits">
+      
           All the links in the footer should remain intact.
           You can delete the links only if you purchased the pro version.
           Licensing information: https://bootstrapmade.com/license/
           Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=NewBiz
         -->
-        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
-      </div>
-    </footer>
-    <!-- #footer -->
+      <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+    </div>
+  </footer>
+  <!-- #footer -->
 
-    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-    <!-- Uncomment below i you want to use a preloader -->
-    <!-- <div id="preloader"></div> -->
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <!-- Uncomment below i you want to use a preloader -->
+  <!-- <div id="preloader"></div> -->
 
-    <!-- JavaScript Libraries -->
-    <script src="lib/jquery/jquery.min.js"></script>
-    <script src="lib/jquery/jquery-migrate.min.js"></script>
-    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/mobile-nav/mobile-nav.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/isotope/isotope.pkgd.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
-    <!-- Contact Form JavaScript File -->
-    <script src="contactform/contactform.js"></script>
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/mobile-nav/mobile-nav.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
 
-    <!-- Template Main Javascript File -->
-    <script src="js/main.js"></script>
-  </body>
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+</body>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 </html>

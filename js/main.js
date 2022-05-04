@@ -119,5 +119,10 @@
     items: 1
   });
 
+  // modal pop up
+  $(document).ready(function(){
+    $('#exampleModal').modal('show');
+}); 
+
 })(jQuery);
 
