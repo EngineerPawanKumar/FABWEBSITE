@@ -120,9 +120,9 @@
   });
 
   // modal pop up
-  $(document).ready(function(){
-    $('#exampleModal').modal('show');
-}); 
+//   $(document).ready(function(){
+//     $('#exampleModal').modal('show');
+// }); 
 
 })(jQuery);
 
